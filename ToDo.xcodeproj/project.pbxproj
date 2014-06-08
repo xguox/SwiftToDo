@@ -13,6 +13,7 @@
 		F189D0EB1944A2F400D74583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F189D0E91944A2F400D74583 /* Main.storyboard */; };
 		F189D0ED1944A2F400D74583 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F189D0EC1944A2F400D74583 /* Images.xcassets */; };
 		F189D0F91944A2F400D74583 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189D0F81944A2F400D74583 /* ToDoTests.swift */; };
+		F189D1051944A39800D74583 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189D1041944A39800D74583 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F189D0F21944A2F400D74583 /* ToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F189D0F71944A2F400D74583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F189D0F81944A2F400D74583 /* ToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTests.swift; sourceTree = "<group>"; };
+		F189D1041944A39800D74583 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				F189D0E31944A2F400D74583 /* AppDelegate.swift */,
 				F189D0E51944A2F400D74583 /* FirstViewController.swift */,
 				F189D0E71944A2F400D74583 /* SecondViewController.swift */,
+				F189D1041944A39800D74583 /* TaskManager.swift */,
 				F189D0E91944A2F400D74583 /* Main.storyboard */,
 				F189D0EC1944A2F400D74583 /* Images.xcassets */,
 				F189D0E11944A2F400D74583 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			files = (
 				F189D0E81944A2F400D74583 /* SecondViewController.swift in Sources */,
 				F189D0E41944A2F400D74583 /* AppDelegate.swift in Sources */,
+				F189D1051944A39800D74583 /* TaskManager.swift in Sources */,
 				F189D0E61944A2F400D74583 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -26,6 +26,15 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewWillAppear(animated: Bool) {
         tblTasks.reloadData()
     }
+    
+    // UITableViewDelete
+    func tableView(tableView: UITableView!, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath!) {
+        if editingStyle == UITableViewCellEditingStyle.Delete {
+            taskMgr.tasks.removeAtIndex(indexPath.row)
+            tblTasks.reloadData()
+        }
+    }
+
 
     func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
         return taskMgr.tasks.count
